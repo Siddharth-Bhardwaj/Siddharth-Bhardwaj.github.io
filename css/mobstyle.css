@@ -1121,3 +1121,7 @@ div.stickyy {
     text-align: center;
     margin-top: 5rem;
 }
+
+.info {
+    display: none;
+}
