@@ -1023,14 +1023,14 @@ footer {
 }
 .slide1 {
     background: url(../images/08.jpg) no-repeat center;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     background-size: cover;
     animation: fade 14s infinite;
     -webkit-animation: fade 14s infinite;
 }
 .slide2 {
     background: url(../images/06.jpg) no-repeat center;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     background-size: cover;
 
     animation: fade2 14s infinite;
@@ -1038,7 +1038,7 @@ footer {
 }
 .slide3 {
     background: url(../images/07.jpg) no-repeat center;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     background-size: cover;
 
     animation: fade3 14s infinite;
