@@ -426,7 +426,6 @@ a.icon {
 }
 
 .header-one,
-.header-two,
 .header-three,
 .header-four,
 .header-five {
@@ -443,6 +442,12 @@ a.icon {
 }
 .header-two {
     background: url("../images/Riverway/cover.jpg") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .header-three {
     background: url("../images/header-three-bg.jpg") no-repeat;
@@ -1261,4 +1266,72 @@ footer {
 
 .dropdown-content a:hover {
     color: red;
+}
+
+#proj-cover {
+    display: none;
+}
+
+.cover-overlay {
+    height: 100%;
+    background-color: white;
+    width: 40%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.cover-overlay-heading {
+    text-align: center;
+    padding: 30px 30px 10px 30px;
+    font-size: 0.5rem;
+}
+
+.cover-overlay-heading h1 {
+    font-size: 1.4rem;
+}
+
+.overlay-text {
+    color: black;
+    padding: 10px;
+    width: 80%;
+    margin: 10px auto;
+    font-weight: 400;
+    text-align: center;
+}
+
+#mob-writeup {
+    display: none;
+}
+
+.proj-info {
+}
+
+.proj-info {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-wrapper-contact {
+    width: 100%;
+    margin-top: 70px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+
+.proj-info li {
+    display: inline-block;
+    margin: 1vw 0vw;
+}
+
+.nav-wrapper-contact li {
+    display: inline-block;
+    margin: 1vw 0vw;
 }
