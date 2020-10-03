@@ -902,11 +902,11 @@ footer {
     display: inline-block;
 }
 .social-icon-nav li a {
-    border-radius: 100px;
+    /* border-radius: 100px; */
     border: 1px solid transparent;
     /* color: #909090; */
     font-size: 18px;
-    width: 50px;
+    width: 100px;
     height: 50px;
     line-height: 48px;
     text-align: center;
@@ -915,8 +915,8 @@ footer {
     transition: all 0.4s ease-in-out;
     padding: 0px;
     margin-top: 4px;
-    margin-right: 8px;
-    margin-left: 8px;
+    /* margin-right: 8px;
+    margin-left: 8px; */
     position: relative;
     top: 0px;
 }
@@ -1265,7 +1265,7 @@ footer {
 }
 
 .dropdown-content a:hover {
-    color: red;
+    color: white;
 }
 
 #proj-cover {
@@ -1307,9 +1307,6 @@ footer {
 }
 
 .proj-info {
-}
-
-.proj-info {
     width: 100%;
     margin-bottom: 20px;
     margin-top: 40px;
@@ -1339,4 +1336,8 @@ footer {
 .h-container {
     width: 85vw;
     margin: auto;
+}
+
+.fotorama__nav-wrap {
+    margin-top: 6vh;
 }
