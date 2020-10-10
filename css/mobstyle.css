@@ -421,7 +421,8 @@ a.icon {
 .header-two .header-thumb,
 .header-three .header-thumb,
 .header-four .header-thumb,
-.header-five .header-thumb {
+.header-five .header-thumb,
+.header-sanjay .header-thumb {
     padding: 32px 20px 32px 20px !important;
 }
 
@@ -429,7 +430,8 @@ a.icon {
 .header-two,
 .header-three,
 .header-four,
-.header-five {
+.header-five,
+.header-sanjay {
     height: 42vh !important;
     min-height: 420px;
     padding-top: 120px !important;
@@ -458,6 +460,14 @@ a.icon {
     background: url("../images/header-five-bg.jpg") no-repeat;
 }
 
+.header-sanjay {
+    background: url("../projects/Mr.\ Sanjay\ Joshi/images/PHOTO ALONG WRITEUP2.jpg")
+        no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
 /* Portfolio section styles
 /* ========================================== */
 #portfolio {
@@ -957,7 +967,8 @@ footer {
     .header-two,
     .header-three,
     .header-four,
-    .header-five {
+    .header-five,
+    .header-sanjay {
         min-height: 380px;
         padding-top: 80px !important;
     }
