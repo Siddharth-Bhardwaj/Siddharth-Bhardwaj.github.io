@@ -1190,7 +1190,7 @@ footer {
     margin-top: 5rem;
 }
 
-.fotorama__nav {
+/* .fotorama__nav {
     margin-top: -60px;
     z-index: 30;
 }
@@ -1218,7 +1218,7 @@ footer {
 .fotorama__dot {
     width: 8px;
     height: 8px;
-}
+} */
 
 #fotorama-mobile {
     display: none;
@@ -1366,10 +1366,6 @@ footer {
 .h-container {
     width: 85vw;
     margin: auto;
-}
-
-.fotorama__nav-wrap {
-    margin-top: 4vh;
 }
 
 #fullscreen-button {
