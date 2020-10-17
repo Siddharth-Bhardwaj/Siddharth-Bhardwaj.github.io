@@ -415,7 +415,10 @@ a.icon {
 .header-three .header-thumb,
 .header-four .header-thumb,
 .header-five .header-thumb,
-.header-sanjay .header-thumb {
+.header-sanjay .header-thumb,
+.header-celestial .header-thumb,
+.header-upendra-penthouse .header-thumb,
+.header-jai-shobhnani .header-thumb {
     padding: 32px 20px 32px 20px !important;
 }
 
@@ -456,6 +459,36 @@ a.icon {
 .header-sanjay {
     background: url("../projects/mr-sanjay-joshi/images/PHOTO\ ALONG\ WRITEUP2.jpg")
         no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-celestial {
+    background: url("../projects/darshanam-celestial/images/07.jpg") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-upendra-penthouse {
+    background: url("../projects/mr-upendra-penthouse/images/01..jpg") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-jai-shobhnani {
+    background: url("../projects/mr-jai-shobhnani/images/7.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -991,7 +1024,10 @@ footer {
     .header-three,
     .header-four,
     .header-five,
-    .header-sanjay {
+    .header-sanjay,
+    .header-celestial,
+    .header-upendra-penthouse,
+    .header-jai-shobhnani {
         min-height: 380px;
         padding-top: 80px !important;
     }
