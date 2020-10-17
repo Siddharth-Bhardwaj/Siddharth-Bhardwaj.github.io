@@ -418,7 +418,8 @@ a.icon {
 .header-sanjay .header-thumb,
 .header-celestial .header-thumb,
 .header-upendra-penthouse .header-thumb,
-.header-jai-shobhnani .header-thumb {
+.header-jai-shobhnani .header-thumb,
+.header-riverway-residence .header-thumb {
     padding: 32px 20px 32px 20px !important;
 }
 
@@ -489,6 +490,16 @@ a.icon {
 
 .header-jai-shobhnani {
     background: url("../projects/mr-jai-shobhnani/images/7.jpg") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-riverway-residence {
+    background: url("../projects/riverway-residence/images/17.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -1027,7 +1038,8 @@ footer {
     .header-sanjay,
     .header-celestial,
     .header-upendra-penthouse,
-    .header-jai-shobhnani {
+    .header-jai-shobhnani,
+    .header-riverway-residence {
         min-height: 380px;
         padding-top: 80px !important;
     }
