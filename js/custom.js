@@ -1,10 +1,8 @@
 /* jQuery Pre loader
   -----------------------------------------------*/
-
-    setTimeout(function(){
-        $(".preloader").fadeOut(1000);
-    }, 1000)
-
+$(window).load(function () {
+    $(".preloader").fadeOut(1000); // set duration in brackets
+});
 
 /* Google Map
 -----------------------------------------------*/
