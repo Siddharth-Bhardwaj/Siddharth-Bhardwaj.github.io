@@ -81,7 +81,6 @@ a:focus {
 img {
     width: 100%;
     max-width: 100%;
-    pointer-events: none;
 }
 
 /* preloader styles
@@ -1542,4 +1541,9 @@ footer {
 
 .mob-google_map {
     display: none;
+}
+
+.lightbox img {
+    max-height: 100vh;
+    object-fit: contain;
 }
