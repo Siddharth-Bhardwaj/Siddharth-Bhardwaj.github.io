@@ -424,7 +424,10 @@ a.icon {
 .header-babukaka-showroom .header-thumb,
 .header-espi-office .header-thumb,
 .header-jsk-showroom .header-thumb,
-.header-jhalak-showroom .header-thumb {
+.header-jhalak-showroom .header-thumb,
+.header-gopal .header-thumb,
+.header-emerald .header-thumb,
+.header-profashion .header-thumb {
     padding: 32px 20px 32px 20px !important;
 }
 
@@ -484,7 +487,7 @@ a.icon {
 }
 
 .header-upendra-penthouse {
-    background: url("../projects/mr-upendra-penthouse/images/01..jpg") no-repeat;
+    background: url("../projects/mr-upendra-penthouse/images/01.JPG") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -579,6 +582,36 @@ a.icon {
     padding-bottom: 0;
 }
 
+.header-gopal {
+    background: url("../projects/mr-gopal/images/photo\ with\ writeup.jpg")
+        no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-emerald {
+    background: url("../projects/emerald/images/IMGL0784.JPG") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-profashion {
+    background: url("../projects/pro-fashion/images/IMGL0473.JPG") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
 /* Portfolio section styles
 /* ========================================== */
 #portfolio {
@@ -1117,7 +1150,10 @@ footer {
     .header-babukaka-showroom,
     .header-espi-office,
     .header-jsk-showroom,
-    .header-jhalak-showroom {
+    .header-jhalak-showroom,
+    .header-gopal,
+    .header-emerald,
+    .header-profashion {
         min-height: 380px;
         padding-top: 80px !important;
     }
