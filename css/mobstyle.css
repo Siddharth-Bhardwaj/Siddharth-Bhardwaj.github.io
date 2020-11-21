@@ -1422,3 +1422,7 @@ div.stickyy {
 #work-head {
     text-align: center;
 }
+
+#sshow {
+    display: none;
+}
