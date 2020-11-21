@@ -1426,3 +1426,7 @@ div.stickyy {
 #sshow {
     display: none;
 }
+
+#desktop-fullscreen {
+    display: none;
+}
