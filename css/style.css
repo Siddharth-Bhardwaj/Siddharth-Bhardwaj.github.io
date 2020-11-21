@@ -427,7 +427,9 @@ a.icon {
 .header-jhalak-showroom .header-thumb,
 .header-gopal .header-thumb,
 .header-emerald .header-thumb,
-.header-profashion .header-thumb {
+.header-profashion .header-thumb,
+.header-kaivalya-residence .header-thumb,
+.header-soumyendra-residence .header-thumb {
     padding: 32px 20px 32px 20px !important;
 }
 
@@ -480,7 +482,7 @@ a.icon {
 
 .header-celestial {
     display: flex;
-    background: url("../projects/darshanam-celestial/images/07.jpg") no-repeat;
+    background: url("../projects/darshanam-celestial/images/03.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -492,7 +494,7 @@ a.icon {
 .header-upendra-penthouse {
     display: flex;
 
-    background: url("../projects/mr-upendra-penthouse/images/01.JPG") no-repeat;
+    background: url("../projects/mr-upendra-penthouse/images/06.JPG") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -504,7 +506,7 @@ a.icon {
 .header-jai-shobhnani {
     display: flex;
 
-    background: url("../projects/mr-jai-shobhnani/images/7.jpg") no-repeat;
+    background: url("../projects/mr-jai-shobhnani/images/1.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -632,6 +634,30 @@ a.icon {
     display: flex;
 
     background: url("../projects/pro-fashion/images/IMGL0473.JPG") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-kaivalya-residence {
+    display: flex;
+
+    background: url("../projects/kaivalya-residence/images/04.jpg") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-soumyendra-residence {
+    display: flex;
+
+    background: url("../projects/mr-soumyendra/images/06.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -1180,7 +1206,9 @@ footer {
     .header-jhalak-showroom,
     .header-gopal,
     .header-emerald,
-    .header-profashion {
+    .header-profashion,
+    .header-kaivalya-residence,
+    .header-soumyendra-residence {
         display: flex;
         min-height: 380px;
         padding-top: 80px !important;
@@ -1474,6 +1502,10 @@ footer {
 }
 
 #proj-cover {
+    display: none;
+}
+
+#proj-cover-soum {
     display: none;
 }
 
