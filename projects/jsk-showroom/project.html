@@ -415,7 +415,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="wow fadeInUp b-wrapper" data-wow-delay="1.5s">
+                <div
+                    class="wow fadeInUp b-wrapper"
+                    id="desktop-fullscreen"
+                    data-wow-delay="1.5s"
+                >
                     <a href="#" onclick="openFullscreen()"
                         ><span>FULLSCREEN</span></a
                     >
@@ -449,6 +453,95 @@
                     <a href="../jsk-showroom/images/09.jpg"></a>
                     <a href="../jsk-showroom/images/11.jpg"></a>
                     <a href="../jsk-showroom/images/12.jpg"></a>
+                </div>
+
+                <div
+                    class="wow fadeInUp b-wrapper"
+                    id="mobile-fullscreen"
+                    data-wow-delay="1.5s"
+                >
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/02.jpg"
+                        ><span>FULLSCREEN</span></a
+                    >
+                </div>
+                <div class="lightbox" id="mobfs">
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/02.jpg"
+                    >
+                        <img src="../jsk-showroom/images/02.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/03.jpg"
+                    >
+                        <img src="../jsk-showroom/images/03.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/04.jpg"
+                    >
+                        <img src="../jsk-showroom/images/04.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/05.jpg"
+                    >
+                        <img src="../jsk-showroom/images/05.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/06.jpg"
+                    >
+                        <img src="../jsk-showroom/images/06.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/07.jpg"
+                    >
+                        <img src="../jsk-showroom/images/07.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/08.jpg"
+                    >
+                        <img src="../jsk-showroom/images/08.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/09.jpg"
+                    >
+                        <img src="../jsk-showroom/images/09.jpg" />
+                    </a>
+
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/11.jpg"
+                    >
+                        <img src="../jsk-showroom/images/11.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/12.jpg"
+                    >
+                        <img src="../jsk-showroom/images/12.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/COVER PHOTO.jpg"
+                    >
+                        <img src="../jsk-showroom/images/COVER PHOTO.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../jsk-showroom/images/PHOTO WITH WRITEUP.jpg"
+                    >
+                        <img
+                            src="../jsk-showroom/images/PHOTO WITH WRITEUP.jpg"
+                        />
+                    </a>
                 </div>
 
                 <script>
@@ -536,6 +629,7 @@
         <script src="../../js/custom.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="../../js/fslightbox.js"></script>
         <script>
             var easeOutQuart = new SmoothScroll(
                 '[data-easing="easeOutQuart"]',

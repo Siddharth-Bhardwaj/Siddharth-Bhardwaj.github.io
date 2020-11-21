@@ -428,7 +428,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="wow fadeInUp b-wrapper" data-wow-delay="1.5s">
+                <div
+                    class="wow fadeInUp b-wrapper"
+                    id="desktop-fullscreen"
+                    data-wow-delay="1.5s"
+                >
                     <a href="#" onclick="openFullscreen()"
                         ><span>FULLSCREEN</span></a
                     >
@@ -464,6 +468,94 @@
                     <a href="../espi-consultants/images/10.jpg"></a>
                     <a href="../espi-consultants/images/11.jpg"></a>
                     <a href="../espi-consultants/images/12.jpg"></a>
+                </div>
+
+                <div
+                    class="wow fadeInUp b-wrapper"
+                    id="mobile-fullscreen"
+                    data-wow-delay="1.5s"
+                >
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/01.jpg"
+                        ><span>FULLSCREEN</span></a
+                    >
+                </div>
+                <div class="lightbox" id="mobfs">
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/01.jpg"
+                    >
+                        <img src="../espi-consultants/images/01.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/02.jpg"
+                    >
+                        <img src="../espi-consultants/images/02.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/03.jpg"
+                    >
+                        <img src="../espi-consultants/images/03.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/05.jpg"
+                    >
+                        <img src="../espi-consultants/images/05.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/06.jpg"
+                    >
+                        <img src="../espi-consultants/images/06.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/07.jpg"
+                    >
+                        <img src="../espi-consultants/images/07.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/09.jpg"
+                    >
+                        <img src="../espi-consultants/images/09.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/10.jpg"
+                    >
+                        <img src="../espi-consultants/images/10.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/11.jpg"
+                    >
+                        <img src="../espi-consultants/images/11.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/12.jpg"
+                    >
+                        <img src="../espi-consultants/images/12.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/COVER PHOTO.jpg"
+                    >
+                        <img src="../espi-consultants/images/COVER PHOTO.jpg" />
+                    </a>
+                    <a
+                        data-fslightbox="gallery"
+                        href="../espi-consultants/images/PHOTO WITH WRITEUP.jpg"
+                    >
+                        <img
+                            src="../espi-consultants/images/PHOTO WITH WRITEUP.jpg"
+                        />
+                    </a>
                 </div>
 
                 <script>
@@ -552,6 +644,7 @@
         <script src="../../js/custom.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="../../js/fslightbox.js"></script>
         <script>
             var easeOutQuart = new SmoothScroll(
                 '[data-easing="easeOutQuart"]',
