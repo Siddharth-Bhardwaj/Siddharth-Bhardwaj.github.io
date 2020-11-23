@@ -1655,3 +1655,9 @@ footer {
 #mobile-fullscreen {
     display: none;
 }
+
+.award-big {
+    height: 500px;
+    width: 70%;
+    object-fit: cover;
+}
