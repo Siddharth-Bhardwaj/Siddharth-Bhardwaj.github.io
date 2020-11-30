@@ -1430,3 +1430,15 @@ div.stickyy {
 #desktop-fullscreen {
     display: none;
 }
+
+.divider-container {
+    display: none !important;
+}
+
+.m-b {
+    margin-bottom: 0.7rem;
+}
+
+.desktop-io {
+    display: none;
+}
