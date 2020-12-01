@@ -468,8 +468,6 @@ a.icon {
 }
 
 .header-sanjay {
-    display: flex;
-
     background: url("../projects/mr-sanjay-joshi/images/PHOTO\ ALONG\ WRITEUP2.jpg")
         no-repeat;
     height: calc(100vh - (94px));
@@ -481,7 +479,6 @@ a.icon {
 }
 
 .header-celestial {
-    display: flex;
     background: url("../projects/darshanam-celestial/images/03.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
@@ -492,8 +489,6 @@ a.icon {
 }
 
 .header-upendra-penthouse {
-    display: flex;
-
     background: url("../projects/mr-upendra-penthouse/images/06.JPG") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
@@ -504,8 +499,6 @@ a.icon {
 }
 
 .header-jai-shobhnani {
-    display: flex;
-
     background: url("../projects/mr-jai-shobhnani/images/1.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
@@ -516,8 +509,6 @@ a.icon {
 }
 
 .header-riverway-residence {
-    display: flex;
-
     background: url("../projects/riverway-residence/images/17.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
@@ -528,8 +519,6 @@ a.icon {
 }
 
 .header-kalpesh-residence {
-    display: flex;
-
     background: url("../projects/mr-kalpesh-residence/images/photo\ wth\ writeup.jpg")
         no-repeat;
     height: calc(100vh - (94px));
@@ -541,8 +530,6 @@ a.icon {
 }
 
 .header-adani-showroom {
-    display: flex;
-
     background: url("../projects/adani-showroom/images/photo\ with\ writeup.jpg")
         no-repeat;
     height: calc(100vh - (94px));
@@ -554,8 +541,6 @@ a.icon {
 }
 
 .header-babukaka-showroom {
-    display: flex;
-
     background: url("../projects/babukaka-showroom/images/PHOTO\ WITH\ WRITEUP.jpg")
         no-repeat;
     height: calc(100vh - (94px));
@@ -567,8 +552,6 @@ a.icon {
 }
 
 .header-espi-office {
-    display: flex;
-
     background: url("../projects/espi-consultants/images/PHOTO\ WITH\ WRITEUP.jpg")
         no-repeat;
     height: calc(100vh - (94px));
@@ -580,8 +563,6 @@ a.icon {
 }
 
 .header-jsk-showroom {
-    display: flex;
-
     background: url("../projects/jsk-showroom/images/PHOTO\ WITH\ WRITEUP.jpg")
         no-repeat;
     height: calc(100vh - (94px));
@@ -593,8 +574,6 @@ a.icon {
 }
 
 .header-jhalak-showroom {
-    display: flex;
-
     background: url("../projects/jhalak-showroom/images/PHOTO\ WITH\ WRITEUP.jpg")
         no-repeat;
     height: calc(100vh - (94px));
@@ -606,8 +585,6 @@ a.icon {
 }
 
 .header-gopal {
-    display: flex;
-
     background: url("../projects/mr-gopal/images/photo\ with\ writeup.jpg")
         no-repeat;
     height: calc(100vh - (94px));
@@ -619,8 +596,6 @@ a.icon {
 }
 
 .header-emerald {
-    display: flex;
-
     background: url("../projects/emerald/images/IMGL0784.JPG") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
@@ -631,8 +606,6 @@ a.icon {
 }
 
 .header-profashion {
-    display: flex;
-
     background: url("../projects/pro-fashion/images/IMGL0473.JPG") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
@@ -643,8 +616,6 @@ a.icon {
 }
 
 .header-kaivalya-residence {
-    display: flex;
-
     background: url("../projects/kaivalya-residence/images/04.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
@@ -655,8 +626,6 @@ a.icon {
 }
 
 .header-soumyendra-residence {
-    display: flex;
-
     background: url("../projects/mr-soumyendra/images/06.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
@@ -1513,12 +1482,10 @@ footer {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.6);
     width: 40%;
-    filter: alpha(opacity=70);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100%;
 }
 
 .cover-overlay-heading {
