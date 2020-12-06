@@ -656,7 +656,7 @@ a.icon {
 }
 
 #portfolio .portfolio-thumb:hover .portfolio-overlay {
-    opacity: 0.7;
+    opacity: 0;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
@@ -1441,4 +1441,17 @@ div.stickyy {
 
 .desktop-io {
     display: none;
+}
+
+.main-head {
+    font-size: 2.5vw;
+    margin-top: 0;
+}
+
+.main-head-divider-desktop {
+    display: none;
+}
+
+.main-head-divider-mobile {
+    color: red;
 }

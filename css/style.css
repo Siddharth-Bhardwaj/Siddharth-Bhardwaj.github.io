@@ -674,7 +674,7 @@ a.icon {
 }
 
 #portfolio .portfolio-thumb:hover .portfolio-overlay {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
@@ -1639,5 +1639,18 @@ footer {
 }
 
 .mobile-io {
+    display: none;
+}
+
+.main-head {
+    font-size: 1rem;
+}
+
+.main-head-divider-desktop {
+    color: red;
+    font-size: 2.5rem;
+}
+
+.main-head-divider-mobile {
     display: none;
 }
