@@ -1295,11 +1295,13 @@ footer {
 }
 
 .imgcaption {
-    /* background-color: black;
-    color: white; */
     margin-top: 0px;
     font-size: 0.75rem;
     padding: 10px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
 }
 
 #show {
@@ -1335,9 +1337,11 @@ div.stickyy {
 }
 
 #projnav {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: center;
     margin-top: 5rem;
+    color: black;
+    font-weight: bold;
 }
 
 .info {
