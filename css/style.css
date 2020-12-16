@@ -1649,7 +1649,6 @@ footer {
 
 .main-head-divider-desktop {
     color: red;
-    font-size: 1.7rem;
 }
 
 .main-head-divider-mobile {
@@ -1663,4 +1662,41 @@ footer {
     color: #000;
     font-size: 1.8rem;
     font-weight: 700;
+}
+
+.fotorama img {
+    width: 100%;
+    height: auto;
+}
+
+.index-writeup {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.proj-head {
+    font-size: 3rem;
+    margin-top: 2vw;
+}
+
+.proj-head span {
+    border-bottom: 4px solid red;
+}
+
+.heading-left {
+    width: 47%;
+    float: left;
+    text-align: right;
+}
+
+.heading-center {
+    width: 6%;
+    float: left;
+    text-align: center;
+}
+
+.heading-right {
+    width: 47%;
+    float: left;
+    text-align: left;
 }

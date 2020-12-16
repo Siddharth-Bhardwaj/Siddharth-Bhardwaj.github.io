@@ -1450,6 +1450,7 @@ div.stickyy {
 .main-head {
     font-size: 2.5vw;
     margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .main-head-divider-desktop {
@@ -1458,4 +1459,37 @@ div.stickyy {
 
 .main-head-divider-mobile {
     color: red;
+}
+
+.fotorama img {
+    width: 100%;
+    height: auto;
+}
+
+.proj-head {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.proj-head span {
+    border-bottom: 4px solid red;
+}
+
+.heading-left {
+    width: 47%;
+    float: left;
+    text-align: right;
+}
+
+.heading-center {
+    width: 6%;
+    float: left;
+    text-align: center;
+}
+
+.heading-right {
+    width: 47%;
+    float: left;
+    text-align: left;
 }
