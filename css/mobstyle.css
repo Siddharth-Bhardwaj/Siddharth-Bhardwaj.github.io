@@ -429,7 +429,8 @@ a.icon {
 .header-emerald .header-thumb,
 .header-profashion .header-thumb,
 .header-kaivalya-residence .header-thumb,
-.header-soumyendra-residence .header-thumb {
+.header-soumyendra-residence .header-thumb,
+.header-sequinze .header-thumb {
     padding: 32px 20px 32px 20px !important;
 }
 
@@ -453,7 +454,8 @@ a.icon {
 .header-emerald,
 .header-profashion,
 .header-kaivalya-residence,
-.header-soumyendra-residence {
+.header-soumyendra-residence,
+.header-sequinze {
     height: 42vh !important;
     min-height: 420px;
     padding-top: 120px !important;
@@ -617,6 +619,14 @@ a.icon {
     background-position: center center;
     text-align: center;
     position: relative;
+}
+
+.header-sequinze {
+    background: url("../projects/sequinze/images/02.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
 }
 
 #proj-cover-soum {
@@ -1140,7 +1150,8 @@ footer {
     .header-emerald,
     .header-profashion,
     .header-kaivalya-residence,
-    .header-soumyendra-residence {
+    .header-soumyendra-residence,
+    .header-sequinze {
         min-height: 380px;
         padding-top: 80px !important;
     }
