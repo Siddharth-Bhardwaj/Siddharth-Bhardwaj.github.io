@@ -430,7 +430,10 @@ a.icon {
 .header-profashion .header-thumb,
 .header-kaivalya-residence .header-thumb,
 .header-soumyendra-residence .header-thumb,
-.header-sequinze .header-thumb {
+.header-sequinze .header-thumb,
+.header-parul-classroom .header-thumb,
+.header-parul-agriculture .header-thumb,
+.header-parul-design .header-thumb {
     padding: 32px 20px 32px 20px !important;
 }
 
@@ -639,6 +642,39 @@ a.icon {
 
 .header-sequinze {
     background: url("../projects/sequinze/images/02.jpg") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-parul-classroom {
+    background: url("../projects/parul-classroom-building/images/2.jpg")
+        no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-parul-agriculture {
+    background: url("../projects/parul-agriculture-building/images/1.jpg")
+        no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-parul-design {
+    background: url("../projects/parul-design/images/24.\ Final\ College\ View\ 1\ -\ 2.jpg")
+        no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -1190,7 +1226,10 @@ footer {
     .header-profashion,
     .header-kaivalya-residence,
     .header-soumyendra-residence,
-    .header-sequinze {
+    .header-sequinze,
+    .header-parul-classroom,
+    .header-parul-agriculture,
+    .header-parul-design {
         display: flex;
         min-height: 380px;
         padding-top: 80px !important;
@@ -1525,7 +1564,8 @@ footer {
     width: 90%;
     margin: 10px auto;
     text-align: center;
-    font-size: 2vh;
+    /* font-size: 2vh; */
+    font-size: 1.6vh;
 }
 
 #mob-writeup {
@@ -1711,4 +1751,10 @@ footer {
     width: 47%;
     float: left;
     text-align: left;
+}
+
+.iiid-writeup {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
 }
