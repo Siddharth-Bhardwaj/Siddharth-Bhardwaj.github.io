@@ -1546,5 +1546,10 @@ div.stickyy {
 }
 
 .text-center-mob {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text-center-mob h1 {
     text-align: center;
 }

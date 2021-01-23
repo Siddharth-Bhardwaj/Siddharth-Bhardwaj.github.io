@@ -589,8 +589,7 @@ a.icon {
 }
 
 .header-gopal {
-    background: url("../projects/mr-gopal/images/photo\ with\ writeup.jpg")
-        no-repeat;
+    background: url("../projects/mr-gopal/images/02..jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -600,7 +599,7 @@ a.icon {
 }
 
 .header-emerald {
-    background: url("../projects/emerald/images/IMGL0784.JPG") no-repeat;
+    background: url("../projects/emerald/images/IMGL0616.JPG") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -920,6 +919,7 @@ a.icon {
 #about blockquote {
     letter-spacing: 2px;
     margin-top: 20px;
+    border-left: 5px solid rgb(255, 92, 92);
 }
 
 /* blog & single post section styles
@@ -1563,9 +1563,12 @@ footer {
     padding: 10px;
     width: 90%;
     margin: 10px auto;
-    text-align: center;
-    /* font-size: 2vh; */
-    font-size: 1.6vh;
+
+    font-size: 1em;
+    line-height: 1.4rem;
+    font-weight: 500;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #mob-writeup {
@@ -1757,4 +1760,10 @@ footer {
     margin-left: 5vw;
     margin-right: 5vw;
     text-align: center;
+}
+
+.embed-video {
+    margin: 4vh;
+    height: 80vh;
+    width: 90%;
 }
