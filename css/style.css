@@ -1427,36 +1427,6 @@ footer {
     display: inline;
 }
 
-/* .fotorama__nav {
-    margin-top: -60px;
-    z-index: 30;
-}
-
-.fotorama__dot {
-    border-color: #eee;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
-}
-
-.fotorama__active .fotorama__dot {
-    background-color: #eee;
-    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
-}
-
-.fotorama__nav--dots .fotorama__nav__frame {
-    width: 38px;
-    height: 30px;
-}
-
-.fotorama__nav__frame.fotorama__active .fotorama__dot {
-    width: 8px;
-    height: 8px;
-}
-
-.fotorama__dot {
-    width: 8px;
-    height: 8px;
-} */
-
 #fotorama-mobile {
     display: none;
 }
