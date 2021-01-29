@@ -483,7 +483,7 @@ a.icon {
 }
 
 .header-celestial {
-    background: url("../projects/darshanam-celestial/images/03.jpg") no-repeat;
+    background: url("../projects/darshanam-celestial/images/07.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -493,7 +493,7 @@ a.icon {
 }
 
 .header-upendra-penthouse {
-    background: url("../projects/mr-upendra-penthouse/images/06.JPG") no-repeat;
+    background: url("../projects/mr-upendra-penthouse/images/01.JPG") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -534,8 +534,7 @@ a.icon {
 }
 
 .header-adani-showroom {
-    background: url("../projects/adani-showroom/images/photo\ with\ writeup.jpg")
-        no-repeat;
+    background: url("../projects/adani-showroom/images/10cov.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -619,7 +618,7 @@ a.icon {
 }
 
 .header-kaivalya-residence {
-    background: url("../projects/kaivalya-residence/images/04.jpg") no-repeat;
+    background: url("../projects/kaivalya-residence/images/05.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -1737,4 +1736,21 @@ footer {
     margin: 4vh;
     height: 80vh;
     width: 90%;
+}
+
+.mob-iiid {
+    display: none;
+}
+
+.award-proj-link {
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
+
+.publication-cover {
+    display: block;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    margin: auto;
 }

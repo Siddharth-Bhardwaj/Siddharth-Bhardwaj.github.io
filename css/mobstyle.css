@@ -500,7 +500,8 @@ a.icon {
 }
 
 .header-celestial {
-    background: url("../projects/darshanam-celestial/images/03.jpg") no-repeat;
+    background: url("../projects/darshanam-celestial/images/17mob.jpg")
+        no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -508,7 +509,7 @@ a.icon {
 }
 
 .header-upendra-penthouse {
-    background: url("../projects/mr-upendra-penthouse/images/06.JPG") no-repeat;
+    background: url("../projects/mr-upendra-penthouse/images/08.JPG") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -611,7 +612,7 @@ a.icon {
 }
 
 .header-kaivalya-residence {
-    background: url("../projects/kaivalya-residence/images/04.jpg") no-repeat;
+    background: url("../projects/kaivalya-residence/images/05.jpg") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -1481,6 +1482,10 @@ div.stickyy {
     display: none;
 }
 
+#mobile-fullscreen {
+    margin-bottom: 3vh;
+}
+
 .divider-container {
     display: none !important;
 }
@@ -1552,4 +1557,17 @@ div.stickyy {
 
 .text-center-mob h1 {
     text-align: center;
+}
+
+.desktop-iiid {
+    display: none;
+}
+
+.award-proj-link {
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
+
+.mobile-io {
+    margin-top: 3vh;
 }
