@@ -1754,3 +1754,8 @@ footer {
     height: auto;
     margin: auto;
 }
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
