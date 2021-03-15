@@ -343,24 +343,6 @@ a.icon {
     z-index: 0;
 }
 
-@media all and (max-width: 767px) {
-    .circle.large {
-        width: 90px;
-        height: 90px;
-        margin-top: -45px;
-    }
-    .circle.large:before {
-        margin-top: -14px;
-        margin-left: -8px;
-        content: "";
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 15px 0 15px 25px;
-        border-color: transparent transparent transparent #fff;
-    }
-}
-
 .list-menu {
     position: fixed;
     visibility: hidden;
@@ -1237,37 +1219,6 @@ footer {
     #about .col-md-4,
     #single-project .col-md-3 {
         padding-bottom: 32px;
-    }
-}
-
-@media (max-width: 700px) {
-    h1 {
-        font-size: 1.3rem;
-    }
-    h3 {
-        font-size: 13px;
-        letter-spacing: 3px;
-    }
-
-    .filter-wrapper {
-        padding: 0px;
-    }
-
-    #contact {
-        padding-bottom: 4rem;
-    }
-
-    #contact .col-md-4 {
-        padding: 32px 20px 22px 62px;
-    }
-    .contact-submit {
-        width: 70%;
-    }
-}
-
-@media (max-width: 450px) {
-    .intro-inner {
-        top: 50%;
     }
 }
 
