@@ -475,7 +475,8 @@ a.icon {
 }
 
 .header-upendra-penthouse {
-    background: url("../projects/mr-upendra-penthouse/images/01.JPG") no-repeat;
+    background: url("../projects/mr-upendra-penthouse/images/thumbs/02.JPG")
+        no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -485,7 +486,8 @@ a.icon {
 }
 
 .header-jai-shobhnani {
-    background: url("../projects/mr-jai-shobhnani/images/1.jpg") no-repeat;
+    background: url("../projects/mr-jai-shobhnani/images/thumbs/1.jpg")
+        no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -516,7 +518,7 @@ a.icon {
 }
 
 .header-adani-showroom {
-    background: url("../projects/adani-showroom/images/10cov.jpg") no-repeat;
+    background: url("../projects/adani-showroom/images/thumbs/04.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -526,7 +528,7 @@ a.icon {
 }
 
 .header-babukaka-showroom {
-    background: url("../projects/babukaka-showroom/images/PHOTO\ WITH\ WRITEUP.jpg")
+    background: url("../projects/babukaka-showroom/images/thumbs/1.jpg")
         no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
@@ -537,7 +539,7 @@ a.icon {
 }
 
 .header-espi-office {
-    background: url("../projects/espi-consultants/images/PHOTO\ WITH\ WRITEUP.jpg")
+    background: url("../projects/espi-consultants/images/thumbs/01\ \(2\).JPG")
         no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
@@ -559,8 +561,7 @@ a.icon {
 }
 
 .header-jhalak-showroom {
-    background: url("../projects/jhalak-showroom/images/PHOTO\ WITH\ WRITEUP.jpg")
-        no-repeat;
+    background: url("../projects/jhalak-showroom/images/thumbs/1.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -1036,6 +1037,10 @@ a.icon {
     height: 50px;
 }
 
+#contact .submitBtn {
+    height: 50px;
+}
+
 #contact input[type="submit"] {
     background: #111112;
     color: #ffffff;
@@ -1046,7 +1051,21 @@ a.icon {
     margin-top: 10px;
 }
 
+#contact .submitBtn {
+    background: #111112;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.4s ease-in-out;
+    margin-top: 10px;
+}
+
 #contact input[type="submit"]:hover {
+    background: #444;
+}
+
+#contact .submitBtn:hover {
     background: #444;
 }
 
@@ -1372,7 +1391,6 @@ footer {
     color: black;
     font-weight: bold;
 }
-
 
 #fotorama-mobile {
     display: none;
@@ -1706,4 +1724,12 @@ footer {
 .text-justify {
     text-align: justify;
     text-justify: inter-word;
+}
+
+.detailing-heading-mobile {
+    display: none;
+}
+
+.detailing-heading-desktop {
+    margin-bottom: 50px;
 }

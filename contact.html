@@ -71,7 +71,7 @@
                                         ><span style="color: red">N</span>itin
                                         Bhardwaj</span
                                     ><span class="subtitle"
-                                        >Architects & Interior Designers</span
+                                        >Architect & Interior Designer</span
                                     ></a
                                 >
                             </div>
@@ -138,7 +138,11 @@
 
                                     <div class="list-menu">
                                         <i
-                                            class="icon ion-close-round close-iframe"
+                                            class="
+                                                icon
+                                                ion-close-round
+                                                close-iframe
+                                            "
                                         ></i>
                                         <div class="intro-inner">
                                             <ul
@@ -177,14 +181,18 @@
                                                     <li>
                                                         <a
                                                             href="https://www.instagram.com/architect_nitin_bhardwaj/"
-                                                            class="fa fa-instagram"
+                                                            class="
+                                                                fa fa-instagram
+                                                            "
                                                             target="_blank"
                                                         ></a>
                                                     </li>
                                                     <li>
                                                         <a
                                                             href="https://www.facebook.com/nbadesign9/"
-                                                            class="fa fa-facebook"
+                                                            class="
+                                                                fa fa-facebook
+                                                            "
                                                             target="_blank"
                                                         ></a>
                                                     </li>
@@ -192,7 +200,9 @@
                                                     <li>
                                                         <a
                                                             href="mailto: nitinb9@gmail.com"
-                                                            class="fa fa-envelope"
+                                                            class="
+                                                                fa fa-envelope
+                                                            "
                                                             target="_blank"
                                                         ></a>
                                                     </li>
@@ -303,12 +313,19 @@
                                     required
                                 ></textarea>
                                 <div class="contact-submit">
-                                    <input
-                                        type="submit"
-                                        class="form-control submit"
-                                        value="Send a message"
-                                        name="submit"
-                                    />
+                                    <button
+                                        class="
+                                            g-recaptcha
+                                            form-control
+                                            submit
+                                            submitBtn
+                                        "
+                                        data-sitekey="6LdU2kgdAAAAAPMHuB1IVyxHe_l-0qKFtV9xSveF"
+                                        data-callback="onSubmit"
+                                        data-action="submit"
+                                    >
+                                        Send a message
+                                    </button>
                                 </div>
                             </form>
                         </div>
@@ -435,5 +452,11 @@
             charset="utf-8"
         ></script>
         <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script>
+            function onSubmit(token) {
+                document.getElementById("contact-form").submit();
+            }
+        </script>
     </body>
 </html>
