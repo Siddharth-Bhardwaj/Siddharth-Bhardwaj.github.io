@@ -417,6 +417,8 @@ a.icon {
 .header-sanjay .header-thumb,
 .header-celestial .header-thumb,
 .header-upendra-penthouse .header-thumb,
+.header-elemental-sky-house .header-thumb,
+.header-jagdish-farshan .header-thumb,
 .header-jai-shobhnani .header-thumb,
 .header-riverway-residence .header-thumb,
 .header-kalpesh-residence .header-thumb,
@@ -445,6 +447,8 @@ a.icon {
 .header-sanjay,
 .header-celestial,
 .header-upendra-penthouse,
+.header-elemental-sky-house,
+.header-jagdish-farshan,
 .header-jai-shobhnani,
 .header-riverway-residence,
 .header-kalpesh-residence,
@@ -510,6 +514,24 @@ a.icon {
 
 .header-upendra-penthouse {
     background: url("../projects/mr-upendra-penthouse/images/thumbs/03.JPG")
+        no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.header-elemental-sky-house {
+    background: url("../projects/elemental-sky-house/images/thumbs/04.jpg")
+        no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.header-jagdish-farshan {
+    background: url("../projects/jagdish-farshan/images/thumbs/01.jpg")
         no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1190,6 +1212,8 @@ footer {
     .header-sanjay,
     .header-celestial,
     .header-upendra-penthouse,
+    .header-elemental-sky-house,
+    .header-jagdish-farshan,
     .header-jai-shobhnani,
     .header-riverway-residence,
     .header-kalpesh-residence,
