@@ -401,6 +401,9 @@ a.icon {
 .header-upendra-penthouse .header-thumb,
 .header-elemental-sky-house .header-thumb,
 .header-jagdish-farshan .header-thumb,
+.header-parul-food-court .header-thumb,
+.header-parul-gate .header-thumb,
+.header-social-abode .header-thumb,
 .header-jai-shobhnani .header-thumb,
 .header-riverway-residence .header-thumb,
 .header-kalpesh-residence .header-thumb,
@@ -467,7 +470,8 @@ a.icon {
 }
 
 .header-celestial {
-    background: url("../projects/darshanam-celestial/images/07.jpg") no-repeat;
+    background: url("../projects/darshanam-celestial/images/thumbs/3.jpg")
+        no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -501,6 +505,37 @@ a.icon {
 .header-jagdish-farshan {
     background: url("../projects/jagdish-farshan/images/thumbs/05.jpg")
         no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-parul-food-court {
+    background: url("../projects/parul-food-court/images/thumbs/03.jpg")
+        no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-parul-gate {
+    background: url("../projects/parul-gate/images/thumbs/01.jpg") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-social-abode {
+    background: url("../projects/social-abode/images/thumbs/2.jpg") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -605,7 +640,7 @@ a.icon {
 }
 
 .header-emerald {
-    background: url("../projects/emerald/images/IMGL0616.JPG") no-repeat;
+    background: url("../projects/emerald/images/thumbs/01.JPG") no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -1239,6 +1274,9 @@ footer {
     .header-upendra-penthouse,
     .header-elemental-sky-house,
     .header-jagdish-farshan,
+    .header-parul-food-court,
+    .header-parul-gate,
+    .header-social-abode,
     .header-jai-shobhnani,
     .header-riverway-residence,
     .header-kalpesh-residence,

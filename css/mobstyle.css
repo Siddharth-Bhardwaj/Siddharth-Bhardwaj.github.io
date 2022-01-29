@@ -419,6 +419,9 @@ a.icon {
 .header-upendra-penthouse .header-thumb,
 .header-elemental-sky-house .header-thumb,
 .header-jagdish-farshan .header-thumb,
+.header-parul-food-court .header-thumb,
+.header-parul-gate .header-thumb,
+.header-social-abode .header-thumb,
 .header-jai-shobhnani .header-thumb,
 .header-riverway-residence .header-thumb,
 .header-kalpesh-residence .header-thumb,
@@ -449,6 +452,9 @@ a.icon {
 .header-upendra-penthouse,
 .header-elemental-sky-house,
 .header-jagdish-farshan,
+.header-parul-food-court,
+.header-parul-gate,
+.header-social-abode,
 .header-jai-shobhnani,
 .header-riverway-residence,
 .header-kalpesh-residence,
@@ -504,7 +510,7 @@ a.icon {
 }
 
 .header-celestial {
-    background: url("../projects/darshanam-celestial/images/17mob.jpg")
+    background: url("../projects/darshanam-celestial/images/thumbs/2.jpg")
         no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -533,6 +539,31 @@ a.icon {
 .header-jagdish-farshan {
     background: url("../projects/jagdish-farshan/images/thumbs/01.jpg")
         no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.header-parul-food-court {
+    background: url("../projects/parul-food-court/images/thumbs/06.jpg")
+        no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.header-parul-gate {
+    background: url("../projects/parul-gate/images/thumbs/09.JPG") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.header-social-abode {
+    background: url("../projects/social-abode/images/thumbs/3.jpg") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -1214,6 +1245,9 @@ footer {
     .header-upendra-penthouse,
     .header-elemental-sky-house,
     .header-jagdish-farshan,
+    .header-parul-food-court,
+    .header-parul-gate,
+    .header-social-abode,
     .header-jai-shobhnani,
     .header-riverway-residence,
     .header-kalpesh-residence,
@@ -1616,4 +1650,8 @@ div.stickyy {
 
 .detailing-heading-desktop {
     display: none;
+}
+
+.embed-video {
+    margin-top: 3vh;
 }
