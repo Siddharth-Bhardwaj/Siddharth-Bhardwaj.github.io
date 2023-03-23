@@ -422,7 +422,8 @@ a.icon {
 .header-parul-agriculture .header-thumb,
 .header-parul-design .header-thumb,
 .header-zen-home .header-thumb,
-.header-vogue-house .header-thumb {
+.header-vogue-house .header-thumb,
+.header-parul-auditorium .header-thumb {
     padding: 32px 20px 32px 20px !important;
 }
 
@@ -558,6 +559,17 @@ a.icon {
 
 .header-vogue-house {
     background: url("../projects/vogue-house/images/thumbs/13.jpg") no-repeat;
+    height: calc(100vh - (94px));
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-parul-auditorium {
+    background: url("../projects/parul-auditorium/images/thumbs/01.jpg")
+        no-repeat;
     height: calc(100vh - (94px));
     -webkit-background-size: cover;
     background-size: cover;
@@ -1317,7 +1329,8 @@ footer {
     .header-parul-agriculture,
     .header-parul-design,
     .header-zen-home,
-    .header-vogue-house {
+    .header-vogue-house,
+    .header-parul-auditorium {
         /* display: flex; */
         min-height: 380px;
         padding-top: 80px !important;
