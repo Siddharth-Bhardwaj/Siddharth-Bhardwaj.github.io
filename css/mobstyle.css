@@ -441,7 +441,9 @@ a.icon {
 .header-parul-design .header-thumb,
 .header-zen-home .header-thumb,
 .header-vogue-house .header-thumb,
-.header-parul-auditorium .header-thumb {
+.header-parul-auditorium .header-thumb,
+.header-national-food-factory .header-thumb,
+.header-rustic-abode .header-thumb {
     padding: 32px 20px 32px 20px !important;
 }
 
@@ -477,7 +479,9 @@ a.icon {
 .header-parul-design,
 .header-zen-home,
 .header-vogue-house,
-.header-parul-auditorium {
+.header-parul-auditorium,
+.header-national-food-factory
+.header-rustic-abode {
     height: 42vh !important;
     min-height: 420px;
     padding-top: 120px !important;
@@ -739,7 +743,25 @@ a.icon {
 }
 
 .header-parul-design {
-    background: url("../projects/parul-design/images/24.\ Final\ College\ View\ 1\ -\ 2.jpg")
+    background: url("../projects/parul-design/images/thumbs/02\(photo\ to\ be\ kept\ with\ writeup\).jpg")
+        no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.header-national-food-factory {
+    background: url("../projects/national-food-factory/images/thumbs/01.jpg")
+        no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.header-rustic-abode {
+    background: url("../projects/rustic-abode/images/thumbs/02\(photo\ to\ be\ kept\ with\ writeup\).jpg")
         no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1297,7 +1319,9 @@ footer {
     .header-parul-agriculture,
     .header-zen-home,
     .header-vogue-house,
-    .header-parul-auditorium {
+    .header-parul-auditorium,
+    .header-national-food-factory,
+    .header-rustic-abode {
         min-height: 380px;
         padding-top: 80px !important;
     }
