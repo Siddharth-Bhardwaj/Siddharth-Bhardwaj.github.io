@@ -1520,6 +1520,10 @@ footer {
     font-weight: bold;
 }
 
+#fotorama-desktop {
+    width: 100%;
+}
+
 #fotorama-mobile {
     display: none;
 }
